@@ -25,10 +25,12 @@ public class AllDepartmentsItemAndImage {
 
     WebDriver driver;
     Actions actions;
+    static WebElement department;
 
     {
         driver = MyDriver.getMyCurrentDriver();
         actions = new Actions(driver);
+
     }
 
     public AllDepartmentsItemAndImage(){
@@ -38,6 +40,7 @@ public class AllDepartmentsItemAndImage {
     @Given("Home Depot web app is up")
     public void home_Depot_web_app_is_up() {
         Assert.assertTrue(driver.getTitle().contains("Home Depot"));
+
     }
 
     @When("user hovers over {string} menu")
@@ -45,7 +48,7 @@ public class AllDepartmentsItemAndImage {
         WebElement allDeps = driver.findElement(By.xpath("//a[text()='All Departments']"));
         //WebDriverWait wait = new WebDriverWait(driver, 10);
         //wait.until(ExpectedConditions.visibilityOf(allDeps));
-        actions.moveToElement(allDeps);
+        actions.moveToElement(allDeps).build().perform();
     }
 
     @Then("user sees {string} {int} in the dropdown list")
@@ -53,23 +56,38 @@ public class AllDepartmentsItemAndImage {
 
         String xPath = "(//div[@class='MainFlyout__level1Wrapper']/ul[@class='MainFlyout__list']/li/a)["
                 + depIndex + "]";
-        //driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        WebElement department = driver.findElement(By.xpath(xPath));
+
+        department = driver.findElement(By.xpath(xPath));
 
         Assert.assertEquals(depItem, department.getAttribute("title"));
     }
 
-//    @When("user hovers over {string}")
-//    public void user_hovers_over(String string) {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new cucumber.api.PendingException();
-//    }
-//
-//    @Then("each image popup contains {string} in the image link")
-//    public void each_image_popup_contains_in_the_image_link(String string) {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new cucumber.api.PendingException();
-//    }
+    @When("user hovers over {string} by {int}")
+    public void user_hovers_over_by(String depItem, Integer depIndex) {
 
+        String xPath = "(//div[@class='MainFlyout__level1Wrapper']/ul[@class='MainFlyout__list']/li/a)["
+                + depIndex + "]";
+
+        department = driver.findElement(By.xpath(xPath));
+
+        actions.moveToElement(department).build().perform();
+    }
+
+    @Then("each image popup contains {string} in the image link")
+    public void each_image_popup_contains_in_the_image_link(String depItem) {
+
+        String xPath = "//section[@class='MainFlyout__level1Details']";
+
+        WebDriverWait wait = new WebDriverWait(driver, 3);
+        WebElement image = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xPath)));
+
+        String imageStyle = image.getAttribute("style");
+
+        String depItemFirstWord =
+                depItem.contains(" ")? depItem.substring(0, depItem.indexOf(" ")) : depItem;
+
+        Assert.assertTrue(imageStyle.contains(depItemFirstWord)
+            || imageStyle.contains("ceilingfan"));
+    }
 
 }

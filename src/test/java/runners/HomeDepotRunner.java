@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resource/features",
         glue = "steps",
         //tags = "@homedepotsmoke",
-        tags = {"@allDepartments"},
-        dryRun = false
+        tags = {"@allDepartments"}
+        //,dryRun = true
 )
 public class HomeDepotRunner {
 }

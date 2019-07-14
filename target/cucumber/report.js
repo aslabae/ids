@@ -13,8 +13,8 @@ formatter.feature({
   ]
 });
 formatter.scenarioOutline({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -27,7 +27,11 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "name": "user sees \"\u003cAll Departments item\u003e\" \u003cDepartment Index\u003e in the dropdown list",
+  "name": "user hovers over \"\u003cAll Departments item\u003e\" by \u003cDepartment Index\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "each image popup contains \"\u003cAll Departments item\u003e\" in the image link",
   "keyword": "Then "
 });
 formatter.examples({
@@ -167,8 +171,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -193,11 +197,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Appliances\" 1 in the dropdown list",
+  "name": "user hovers over \"Appliances\" by 1",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Appliances\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -221,8 +235,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -247,11 +261,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Bath \u0026 Faucets\" 2 in the dropdown list",
+  "name": "user hovers over \"Bath \u0026 Faucets\" by 2",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Bath \u0026 Faucets\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -275,8 +299,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -301,11 +325,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Blinds \u0026 Window Treatment\" 3 in the dropdown list",
+  "name": "user hovers over \"Blinds \u0026 Window Treatment\" by 3",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Blinds \u0026 Window Treatment\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -329,8 +363,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -355,11 +389,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Building Materials\" 4 in the dropdown list",
+  "name": "user hovers over \"Building Materials\" by 4",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Building Materials\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -383,8 +427,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -409,11 +453,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Decor \u0026 Furniture\" 5 in the dropdown list",
+  "name": "user hovers over \"Decor \u0026 Furniture\" by 5",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Decor \u0026 Furniture\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -437,8 +491,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -463,11 +517,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Doors \u0026 Windows\" 6 in the dropdown list",
+  "name": "user hovers over \"Doors \u0026 Windows\" by 6",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Doors \u0026 Windows\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -491,8 +555,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -517,11 +581,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Electrical\" 7 in the dropdown list",
+  "name": "user hovers over \"Electrical\" by 7",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Electrical\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -545,8 +619,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -571,11 +645,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Flooring \u0026 Area Rugs\" 8 in the dropdown list",
+  "name": "user hovers over \"Flooring \u0026 Area Rugs\" by 8",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Flooring \u0026 Area Rugs\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -599,8 +683,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -625,11 +709,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Hardware\" 9 in the dropdown list",
+  "name": "user hovers over \"Hardware\" by 9",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Hardware\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -653,8 +747,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -679,11 +773,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Heating \u0026 Cooling\" 10 in the dropdown list",
+  "name": "user hovers over \"Heating \u0026 Cooling\" by 10",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Heating \u0026 Cooling\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -707,8 +811,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -733,11 +837,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Kitchen \u0026 Kitchenware\" 11 in the dropdown list",
+  "name": "user hovers over \"Kitchen \u0026 Kitchenware\" by 11",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Kitchen \u0026 Kitchenware\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -761,8 +875,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -787,11 +901,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Lawn \u0026 Garden\" 12 in the dropdown list",
+  "name": "user hovers over \"Lawn \u0026 Garden\" by 12",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Lawn \u0026 Garden\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -815,8 +939,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -841,11 +965,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Lighting \u0026 Ceiling Fans\" 13 in the dropdown list",
+  "name": "user hovers over \"Lighting \u0026 Ceiling Fans\" by 13",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Lighting \u0026 Ceiling Fans\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -869,8 +1003,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -895,11 +1029,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Outdoor Living\" 14 in the dropdown list",
+  "name": "user hovers over \"Outdoor Living\" by 14",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Outdoor Living\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -923,8 +1067,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -949,11 +1093,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Paint\" 15 in the dropdown list",
+  "name": "user hovers over \"Paint\" by 15",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Paint\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -977,8 +1131,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -1003,11 +1157,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Plumbing\" 16 in the dropdown list",
+  "name": "user hovers over \"Plumbing\" by 16",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Plumbing\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1031,8 +1195,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -1057,11 +1221,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Storage \u0026 Organization\" 17 in the dropdown list",
+  "name": "user hovers over \"Storage \u0026 Organization\" by 17",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Storage \u0026 Organization\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
@@ -1085,8 +1259,8 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Each department\u0027s name in All Deparments menu",
-  "description": "                    has to correspond the below table",
+  "name": "Each department in All Deparments menu",
+  "description": "            has to have a correct popup image",
   "keyword": "Scenario Outline",
   "tags": [
     {
@@ -1111,11 +1285,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user sees \"Tools\" 18 in the dropdown list",
+  "name": "user hovers over \"Tools\" by 18",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AllDepartmentsItemAndImage.user_hovers_over_by(String,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "each image popup contains \"Tools\" in the image link",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AllDepartmentsItemAndImage.user_sees_in_the_dropdown_list(String,Integer)"
+  "location": "AllDepartmentsItemAndImage.each_image_popup_contains_in_the_image_link(String)"
 });
 formatter.result({
   "status": "passed"
