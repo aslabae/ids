@@ -39,8 +39,11 @@ public class AllDepartmentsItemAndImage {
 
     @Given("Home Depot web app is up")
     public void home_Depot_web_app_is_up() {
-        Assert.assertTrue(driver.getTitle().contains("Home Depot"));
-
+        if(driver != null){
+            Assert.assertTrue(driver.getTitle().contains("Home Depot"));
+        }else{
+            driver = MyDriver.getMyCurrentDriver();
+        }
     }
 
     @When("user hovers over {string} menu")
@@ -85,6 +88,10 @@ public class AllDepartmentsItemAndImage {
 
         String depItemFirstWord =
                 depItem.contains(" ")? depItem.substring(0, depItem.indexOf(" ")) : depItem;
+
+
+        System.out.println("Active text is here: " + department.getAttribute("class"));
+        Assert.assertTrue(department.getAttribute("class").contains("active"));
 
         Assert.assertTrue(imageStyle.contains(depItemFirstWord)
             || imageStyle.contains("ceilingfan"));

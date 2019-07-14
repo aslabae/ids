@@ -21,31 +21,7 @@
       <change afterPath="$PROJECT_DIR$/../comAssociateBank/src/test/java/pages/HomePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../comAssociateBank/src/test/java/utilities/DriverClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/HomeDepotRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/HomeDepotRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/AllDepartmentsItemAndImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AllDepartmentsItemAndImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resource/features/hdAllDepartmentsPopupImages.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resource/features/hdAllDepartmentsPopupImages.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/hdAllDepartmentsPopupImages.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/hdAllDepartmentsPopupImages.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/HomeDepotRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/HomeDepotRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/AllDepartmentsItemAndImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/AllDepartmentsItemAndImage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,16 +43,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="1997" />
-          <entry key="java" value="4444" />
+          <entry key="feature" value="2177" />
+          <entry key="java" value="4913" />
           <entry key="properties" value="43" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="1997" />
-          <entry key="JAVA" value="4444" />
+          <entry key="Cucumber" value="2177" />
+          <entry key="JAVA" value="4913" />
           <entry key="Properties" value="43" />
           <entry key="XML" value="11" />
         </counts>
@@ -84,8 +60,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="feature" value="4" />
-          <entry key="java" value="13" />
+          <entry key="feature" value="5" />
+          <entry key="java" value="16" />
           <entry key="js" value="2" />
           <entry key="json" value="2" />
           <entry key="properties" value="2" />
@@ -95,8 +71,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="Cucumber" value="4" />
-          <entry key="JAVA" value="13" />
+          <entry key="Cucumber" value="5" />
+          <entry key="JAVA" value="16" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -120,31 +96,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/runners/HomeDepotRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resource/features/hdSearch.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resource/features/hdAllDepartmentsPopupImages.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runners/HDRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,10 +117,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/AllDepartmentsItemAndImage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/HDSearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+            <state relative-caret-position="290">
+              <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runners/HomeDepotRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,19 +153,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/props.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/resource/features/hdAllDepartmentsPopupImages.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="60">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/Props.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/AllDepartmentsItemAndImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+            <state relative-caret-position="227">
+              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -251,6 +227,9 @@
         <option value="$PROJECT_DIR$/src/test/java/runners/HomeDepotRunner.java" />
         <option value="$PROJECT_DIR$/src/test/resource/features/hdAllDepartmentsPopupImages.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/AllDepartmentsItemAndImage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/HDRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/resource/features/hdSearch.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/HDSearchSteps.java" />
       </list>
     </option>
   </component>
@@ -283,10 +262,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="111" />
     <option name="y" value="23" />
     <option name="width" value="1226" />
-    <option name="height" value="816" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -392,7 +370,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563100636715" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563139424917" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RunDashboard">
@@ -407,14 +385,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HomeDepotRunner">
-    <configuration name="Feature: hdAllDepartmentsPopupImages" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HDRunner">
+    <configuration name="Feature: hdSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resource/features/hdAllDepartmentsPopupImages.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resource/features/hdSearch.feature" />
+      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="todayAI" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: hdAllDepartmentsPopupImages" />
+      <option name="SUGGESTED_NAME" value="Feature: hdSearch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -462,7 +441,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailedTestsRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HDRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todayAI" />
       <extension name="coverage">
         <pattern>
@@ -471,7 +450,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.FailedTestsRunner" />
+      <option name="MAIN_CLASS_NAME" value="runners.HDRunner" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -492,18 +471,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.HomeDepotRunner" />
-      <item itemvalue="JUnit.FailedTestsRunner" />
       <item itemvalue="Cucumber java.Scenario: Each department's name in All Deparments menu" />
-      <item itemvalue="Cucumber java.Feature: hdAllDepartmentsPopupImages" />
       <item itemvalue="Cucumber java.Scenario: Each department in All Deparments menu" />
+      <item itemvalue="JUnit.HDRunner" />
+      <item itemvalue="Cucumber java.Feature: hdSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HDRunner" />
+        <item itemvalue="Cucumber java.Feature: hdSearch" />
         <item itemvalue="JUnit.HomeDepotRunner" />
         <item itemvalue="Cucumber java.Scenario: Each department in All Deparments menu" />
         <item itemvalue="Cucumber java.Scenario: Each department's name in All Deparments menu" />
-        <item itemvalue="Cucumber java.Feature: hdAllDepartmentsPopupImages" />
-        <item itemvalue="JUnit.FailedTestsRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -521,39 +500,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeDepotRunner - 2019.07.13 at 16h 00m 34s.xml">
-      <configuration name="HomeDepotRunner" configurationId="JUnit" />
+    <history-entry file="HDRunner - 2019.07.14 at 16h 01m 47s.xml">
+      <configuration name="HDRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeDepotRunner - 2019.07.13 at 16h 05m 56s.xml">
-      <configuration name="HomeDepotRunner" configurationId="JUnit" />
+    <history-entry file="Feature__hdSearch - 2019.07.14 at 16h 06m 06s.xml">
+      <configuration name="Feature: hdSearch" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="HomeDepotRunner - 2019.07.13 at 16h 08m 15s.xml">
-      <configuration name="HomeDepotRunner" configurationId="JUnit" />
+    <history-entry file="HDRunner - 2019.07.14 at 16h 07m 26s.xml">
+      <configuration name="HDRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeDepotRunner - 2019.07.13 at 16h 47m 40s.xml">
-      <configuration name="HomeDepotRunner" configurationId="JUnit" />
+    <history-entry file="HDRunner - 2019.07.14 at 16h 11m 58s.xml">
+      <configuration name="HDRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeDepotRunner - 2019.07.13 at 17h 17m 49s.xml">
-      <configuration name="HomeDepotRunner" configurationId="JUnit" />
+    <history-entry file="HDRunner - 2019.07.14 at 16h 14m 36s.xml">
+      <configuration name="HDRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeDepotRunner - 2019.07.13 at 17h 21m 30s.xml">
-      <configuration name="HomeDepotRunner" configurationId="JUnit" />
+    <history-entry file="HDRunner - 2019.07.14 at 16h 16m 52s.xml">
+      <configuration name="HDRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeDepotRunner - 2019.07.14 at 05h 15m 46s.xml">
-      <configuration name="HomeDepotRunner" configurationId="JUnit" />
+    <history-entry file="HDRunner - 2019.07.14 at 16h 18m 41s.xml">
+      <configuration name="HDRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeDepotRunner - 2019.07.14 at 05h 17m 52s.xml">
-      <configuration name="HomeDepotRunner" configurationId="JUnit" />
+    <history-entry file="HDRunner - 2019.07.14 at 16h 19m 05s.xml">
+      <configuration name="HDRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeDepotRunner - 2019.07.14 at 05h 23m 22s.xml">
-      <configuration name="HomeDepotRunner" configurationId="JUnit" />
+    <history-entry file="HDRunner - 2019.07.14 at 16h 20m 10s.xml">
+      <configuration name="HDRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeDepotRunner - 2019.07.14 at 05h 34m 32s.xml">
-      <configuration name="HomeDepotRunner" configurationId="JUnit" />
+    <history-entry file="HDRunner - 2019.07.14 at 16h 23m 59s.xml">
+      <configuration name="HDRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="111" y="23" width="1226" height="816" extended-state="0" />
+    <frame x="0" y="23" width="1226" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -563,13 +542,13 @@
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.8088235" visible="true" weight="0.25760135" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.328594" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.37381703" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.31767955" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3170347" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.25552487" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.2555205" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -644,44 +623,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resource/props.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/resource/features/f.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/HomeDepotRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resource/features/hdAllDepartmentsPopupImages.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/MyDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -722,10 +667,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/features/f.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/MyDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/AllDepartmentsItemAndImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+        <state relative-caret-position="227">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/HomeDepotRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/features/hdAllDepartmentsPopupImages.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/features/hdSearch.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/HDRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/HDSearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
